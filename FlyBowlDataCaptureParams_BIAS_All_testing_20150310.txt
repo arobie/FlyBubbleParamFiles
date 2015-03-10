@@ -1,3 +1,4 @@
+#testing git
 # Directory to store video to
 #OutputDirectory,E:\Data,E:\Data
 #OutputDirectory,E:\debug_data,E:\debug_data
