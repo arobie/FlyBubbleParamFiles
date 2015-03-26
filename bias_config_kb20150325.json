@@ -43,7 +43,7 @@
             },
             "frameRate" : {
                 "absoluteControl" : true,
-                "absoluteValue" : 148.0,
+                "absoluteValue" : 150.0,
                 "autoActive" : false,
                 "on" : true,
                 "onePush" : false,
