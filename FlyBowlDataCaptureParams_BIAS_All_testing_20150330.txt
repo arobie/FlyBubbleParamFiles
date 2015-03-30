@@ -1,8 +1,8 @@
 #testing git
 # Directory to store video to
-#OutputDirectory,E:\Data,E:\Data
+OutputDirectory,E:\Data,E:\Data
 #OutputDirectory,E:\debug_data,E:\debug_data
-OutputDirectory,E:\special_data,E:\special_data
+#OutputDirectory,E:\special_data,E:\special_data
 # Directory to temporarily store video to
 TmpOutputDirectory,E:\tmpdata,E:\tmpdata
 # Names of hard drives, corresponding to the ordered OutputDirectory list
