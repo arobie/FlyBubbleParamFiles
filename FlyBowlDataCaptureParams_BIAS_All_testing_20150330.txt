@@ -172,7 +172,7 @@ ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt
 
-ExperimentStartDelay,180
+ExperimentStartDelay,150
 
 # how to create the experiment name
 ExperimentNameComponents,sprintf('%s_%s_%s_Rig%s_%s',handles.ExperimentType,handles.ConditionName,handles.MetaData_EffectorAbbr,handles.Assay_Rig,timestampstr);
