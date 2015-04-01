@@ -1,0 +1,38 @@
+"# LDAP name of person who created the cross. Enter ""unknown"" if unknown or N/A.",
+CrossHandler,peekm
+# Number of days between creating the cross and the experiment. Enter -1 if unknown.,
+DaysSinceCross,-1
+# Effector name.,
+Effector,pJFRC49
+"# Name of experimental protocol. Enter """"unknown"""" if unknown.",
+ExperimentProtocol,EP_Bubble_v001p0.xlsx
+# Days between the cross and the flip. Enter -1 if unknown.,
+FlipDays,-1
+# Which flip flies are from. Enter -1 if unknown.,
+FlipUsed,-1
+# Gender of flies. x=unknown m=male f=female b=both.,
+Gender,b
+"# Name of handling protocol. Enter ""unknown"" if unknown.",
+HandlingProtocol,HP_Bubble_v001p0.xlsx
+# Fly line name. This should be a real line name that is registered with SAGE.,
+LineName,FCF_cantons_1500002
+"# Name of rearing protocol. Enter ""unknown"" if unknown.",
+RearingProtocol,RP_Bubble_v001p0.xlsx
+# Which robot stock copy the flies are from. Enter unknown.,
+RobotID,unknown
+"# LDAP name of person who sorted the flies. Enter ""unknown"" if unknown of N/A",
+SortingHandler,peekm
+# Hours between sorting the flies and starting the experiment. Enter -1 if the flies are not sorted or sorting time is unknown.,
+SortingTime,30
+"# LDAP name of person who moved the flies to starvation medium. Enter ""unknown"" if unknown or N/A",
+StarvationHandler,peekm
+# Hours between starving the flies and starting the experiment. Enter 0 if the flies are not starved, -1 if the starvation time is unknown.
+StarvationTime,24
+"# what we should replace ""Condition"" text string with",
+BarcodeCondition,Line
+# flip days,
+FlipDays,2
+# lab name,
+LabName,branson
+# screen reason -- overrides condition,
+ScreenReason,unknown
