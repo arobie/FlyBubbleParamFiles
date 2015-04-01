@@ -327,7 +327,7 @@ ChR_IrInt,50
 
 ## protocol file
 
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_20150311_NoChr.xlsx
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_20150401_NoChr.xlsx
 
 ChR_isDaqCard,0
 
