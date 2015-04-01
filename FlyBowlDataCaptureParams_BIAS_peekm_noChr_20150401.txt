@@ -167,7 +167,8 @@ CoupleCameraTempProbeStart,1
 ConditionDirectory,C:\Users\bransonk\Documents\MATLAB\ConditionFiles
 
 # Number of seconds to record
-RecordTime,30
+
+RecordTime,20
 
 
 
@@ -178,7 +179,7 @@ RecordTime,30
 
 BIASBinary,C:\Users\bransonk\Documents\bias_test_gui_v0p49\bias_gui_v049.exe
 
-BIASConfigFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\bias_config_kb20150216.json
+BIASConfigFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\bias_config_kb20150325.json
 
 # Port to look for the camera
 
