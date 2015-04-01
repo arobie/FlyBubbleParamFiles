@@ -168,8 +168,7 @@ ConditionDirectory,C:\Users\bransonk\Documents\MATLAB\ConditionFiles
 
 # Number of seconds to record
 
-RecordTime,20
-
+RecordTime,900
 
 
 ## new BIAS specific parameters
