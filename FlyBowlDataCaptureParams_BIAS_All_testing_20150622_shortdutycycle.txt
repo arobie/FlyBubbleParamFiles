@@ -1,7 +1,7 @@
 #testing git
 # Directory to store video to
-#OutputDirectory,E:\Data,E:\Data
-OutputDirectory,E:\debug_data,E:\debug_data
+OutputDirectory,E:\Data,E:\Data
+#OutputDirectory,E:\debug_data,E:\debug_data
 #OutputDirectory,E:\special_data,E:\special_data
 # Directory to temporarily store video to
 TmpOutputDirectory,E:\tmpdata,E:\tmpdata
@@ -85,7 +85,7 @@ CoupleCameraTempProbeStart,1
 # where the condition files will be stored
 ConditionDirectory,C:\Users\bransonk\Documents\FlyBubbleParamFiles\ConditionFiles
 # Number of seconds to record
-RecordTime,60
+RecordTime,20
 
 ## new BIAS specific parameters
 
@@ -154,12 +154,12 @@ PreviewUpdatePeriod,1
 ## for gdcam, number of frames between updates
 #gdcamPreviewFrameInterval,2
 
-ColormapPreview,1
+ColormapPreview,0
 
 
 # ChR stuff
 
-doChR,0
+doChR,1
 ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM4,daikon:COM4
 ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
@@ -167,12 +167,12 @@ ChR_THUpdateP,30
 ## settings for the LED controller
 ChR_IrInt,50
 ## protocol file
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_20150330.xlsx
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_shortdutycycle_20150622.xlsx
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt
 
-ExperimentStartDelay,0
+ExperimentStartDelay,150
 
 # how to create the experiment name
 ExperimentNameComponents,sprintf('%s_%s_%s_Rig%s_%s',handles.ExperimentType,handles.ConditionName,handles.MetaData_EffectorAbbr,handles.Assay_Rig,timestampstr);
