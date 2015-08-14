@@ -1,0 +1,178 @@
+#testing git
+# Directory to store video to
+OutputDirectory,E:\Data,E:\Data
+#OutputDirectory,E:\debug_data,E:\debug_data
+#OutputDirectory,E:\special_data,E:\special_data
+# Directory to temporarily store video to
+TmpOutputDirectory,E:\tmpdata,E:\tmpdata
+# Names of hard drives, corresponding to the ordered OutputDirectory list
+HardDriveName,(arrowroot:Internal_E;beet:Internal_E;carrot:Internal_E;daikon:Internal_E),(arrowroot:Internal_E;beet:Internal_E;carrot:Internal_E;daikon:Internal_E)
+# Camera adaptor
+#Imaq_Adaptor,udcam
+Imaq_Adaptor,bias
+# Video file type
+#FileType,fmf
+FileType,ufmf
+
+# Prefix of movie file
+MovieFilePrefix,movie
+# Name of file to store metadata to
+MetaDataFileName,Metadata.xml
+# Name of file to store log to
+LogFileName,Log.txt
+# Log file for writing ufmf
+UFMFLogFileName,ufmf_log.txt
+# Name of file to write UFMF diagnostic stats
+UFMFStatFileName,ufmf_diagnostics.txt
+# Name of mat file containing quickstats stats
+QuickStatsStatsFileName,QuickStats_Stats_20110914T022555.mat
+
+# List of possible Experimenter values
+Assay_Experimenters,edwardsa,mcmahonj,robiea
+# List of possible Incubator ID values
+Rearing_IncubatorIDs,1,2,3,4,5,6,7,8
+# Assay room number
+Assay_Room,2C.310.1
+# List of possible Rig values
+Assay_Rigs,A,B,C,D
+# List of possible Plate values
+Assay_Plates,01,02,03,04
+# List of possible Visual Surround values
+Assay_VisualSurrounds,1,2,3,4
+# List of possible Lid values
+Assay_Lids,01,02,03,04
+# List of possible Bowl values
+Assay_Bowls,A
+# MetaData: Assay name
+MetaData_AssayName,FlyBubble
+
+# sorting time
+# Range of Sorting Times to show -- minimum and maximum in hour of the day, e.g. 8 = 8am, 18=6pm, 8.5=8:30am
+PreAssayHandling_SortingHour_Range,8,19
+
+# Frame rate we expect
+Imaq_FrameRate,150
+# Maximum frame rate we will get
+Imaq_MaxFrameRate,155
+# limits of y-axis for frame rate plot
+FrameRatePlotYLim,0,160
+# Limits of y-axis for temperature plot
+TempPlotYLim,20,35
+# Time in between temperature readings
+TempProbePeriod,5
+# Which channels have temperature probes
+TempProbeChannels,1,2
+# Thermocouple types
+TempProbeTypes,T,T
+# if 1, temperature probe will reject 60 Hz, otherwise will reject 50 Hz
+TempProbeReject60Hz,0
+# whether to read temperature or not
+DoRecordTemp,0
+# number of temperature and humidity samples to read from the Precon probe
+# set to 0 if no Precon sensor
+NPreconSamples,5
+# which serial port to connect to -- I have no idea how to figure this out 
+# automatically
+PreconSensorSerialPort,arrowroot:COM6,beet:COM4,carrot:COM5,daikon:COM5
+
+# y-axis limits for scan lines
+ScanLineYLim,60,250
+# min, max time between loading flies and starting recording
+MinFliesLoadedTime,0
+MaxFliesLoadedTime,300
+# whether to couple camera and temperature probe start
+CoupleCameraTempProbeStart,1
+# where the condition files will be stored
+ConditionDirectory,C:\Users\bransonk\Documents\FlyBubbleParamFiles\ConditionFiles
+# Number of seconds to record
+RecordTime,20
+
+## new BIAS specific parameters
+
+# BIAS config file
+BIASBinary,C:\Users\bransonk\Documents\bias_test_gui_v0p49\bias_gui_v049.exe
+BIASConfigFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\bias_config_kb20150325.json
+# Port to look for the camera
+BIASServerPortBegin,5000
+BIASServerPortStep,10
+BIASCameraNumbers,1,2
+# base url for communicating with the camera
+BIASURLBase,http://127.0.0.1
+
+## barcode stuff
+DoQuerySage,1
+
+##### obsolete
+
+## all of this is stored in the BIAS config file
+## Video format
+##Imaq_VideoFormat,F7_Y8_1280x1024
+#Imaq_VideoFormat,Format 7, Mode 0
+## whether to display the video preview with the jet colormap
+#ColormapPreview,0
+## Shutter period
+#Imaq_Shutter,100
+## Gain
+#Imaq_Gain,170
+## Brightness
+#Imaq_Brightness,25
+## Device name
+#Imaq_DeviceName,A622f
+## Video ROI Position
+#Imaq_ROIPosition,128,0,1024,1024
+## Minimum time in between preview window updates
+PreviewUpdatePeriod,1
+# Whether to compute UFMF diagnostics
+#UFMFPrintStats,1
+## number of frames between outputting per-frame compression statistics: 0 means don't print, 1 means every frame
+#UFMFStatStreamPrintFreq,30
+## number of frames between computing statistics of compression error. 0 means don't compute, 1 means every frame
+#UFMFStatComputeFrameErrorFreq,30
+## whether to print information about the time each part of the computation takes
+#UFMFStatPrintTimings,1
+## maximum fraction of pixels that can be foreground to try compressing frame
+#UFMFMaxFracFgCompress,.2
+## number of frames the background model should be based on 
+#UFMFMaxBGNFrames,100
+## number of seconds between updates to the background model
+#UFMFBGUpdatePeriod,1
+## number of seconds between spitting out a new background model
+#UFMFBGKeyFramePeriod,100
+## max length of box stored during compression
+#UFMFMaxBoxLength,5
+## threshold for background subtraction
+#UFMFBackSubThresh,15
+## first nFramesInit we always update the background model
+#UFMFNFramesInit,100
+## while ramping up the background model, use the following keyframe periods
+#UFMFBGKeyFramePeriodInit,1,10,25,50,75
+## lookup table from rig+bowl to whether to rotate the preview image
+#DoRotatePreviewImage,(1,A,1),(1,B,1),(1,C,0),(1,D,0),(2,A,1),(2,B,1),(2,C,0),(2,D,0)
+
+## List of room names
+#Assay_Rooms,2C.310.1,2C.310.2,2C.310.3
+## for gdcam, number of frames between updates
+#gdcamPreviewFrameInterval,2
+
+ColormapPreview,0
+
+
+# ChR stuff
+
+doChR,1
+ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM4,daikon:COM4
+ChR_rigName,flyBowlAlice
+## set the polling rate for the temp/humidity sensor in seconds
+ChR_THUpdateP,30
+## settings for the LED controller
+ChR_IrInt,50
+## protocol file
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_andy_sensory_20150814.xlsx
+ChR_isDaqCard,0
+ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+StimulusTimingLogFileName,StimulusTimingLog.txt
+
+ExperimentStartDelay,150
+
+# how to create the experiment name
+ExperimentNameComponents,sprintf('%s_%s_%s_Rig%s_%s',handles.ExperimentType,handles.ConditionName,handles.MetaData_EffectorAbbr,handles.Assay_Rig,timestampstr);
