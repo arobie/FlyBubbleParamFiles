@@ -83,7 +83,7 @@ MaxFliesLoadedTime,300
 # whether to couple camera and temperature probe start
 CoupleCameraTempProbeStart,1
 # where the condition files will be stored
-ConditionDirectory,C:\Users\bransonk\Documents\MATLAB\ConditionFiles
+ConditionDirectory,C:\Users\bransonk\Documents\FlyBubbleParamFiles\ConditionFiles
 # Number of seconds to record
 RecordTime,600
 
