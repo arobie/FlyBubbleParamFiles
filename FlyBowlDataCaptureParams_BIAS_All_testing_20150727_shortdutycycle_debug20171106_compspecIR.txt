@@ -1,7 +1,7 @@
 #testing git
 # Directory to store video to
-OutputDirectory,E:\Data,E:\Data
-#OutputDirectory,E:\debug_data,E:\debug_data
+#OutputDirectory,E:\Data,E:\Data
+OutputDirectory,E:\debug_data,E:\debug_data
 #OutputDirectory,E:\special_data,E:\special_data
 # Directory to temporarily store video to
 TmpOutputDirectory,E:\tmpdata,E:\tmpdata
@@ -73,7 +73,7 @@ DoRecordTemp,0
 NPreconSamples,5
 # which serial port to connect to -- I have no idea how to figure this out 
 # automatically
-PreconSensorSerialPort,arrowroot:COM6,beet:COM4,carrot:COM5,daikon:COM5
+PreconSensorSerialPort,arrowroot:COM6,beet:COM4,carrot:COM5,daikon:COM4
 
 # y-axis limits for scan lines
 ScanLineYLim,60,250

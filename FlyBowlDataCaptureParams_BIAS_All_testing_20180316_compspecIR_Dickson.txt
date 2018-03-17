@@ -104,6 +104,8 @@ BIASURLBase,http://127.0.0.1
 
 ## barcode stuff
 DoQuerySage,1
+## Minimum time in between preview window updates
+PreviewUpdatePeriod,1
 
 
 
