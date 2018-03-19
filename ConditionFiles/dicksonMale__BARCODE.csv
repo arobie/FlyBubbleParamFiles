@@ -1,7 +1,7 @@
 # LDAP name of person who created the cross. Enter """"unknown"""" if unknown or N/A.",
 CrossHandler,senr
 # Number of days between creating the cross and the experiment. Enter -1 if unknown.,
-DaysSinceCross,25
+DaysSinceCross,18
 # Effector name.,
 Effector,UAS_Chrimson_Venus_X_0070
 # Name of experimental protocol. Enter """"""""unknown"""""""" if unknown.",
@@ -23,7 +23,7 @@ RobotID,unknown
 # LDAP name of person who sorted the flies. Enter """"unknown"""" if unknown of N/A",
 SortingHandler,senr
 # Hours between sorting the flies and starting the experiment. Enter -1 if the flies are not sorted or sorting time is unknown.,
-SortingTime,336
+SortingTime,144
 # LDAP name of person who moved the flies to starvation medium. Enter """"unknown"""" if unknown or N/A",
 StarvationHandler,unknown
 # Hours between starving the flies and starting the experiment. Enter 0 if the flies are not starved, -1 if the starvation time is unknown.
