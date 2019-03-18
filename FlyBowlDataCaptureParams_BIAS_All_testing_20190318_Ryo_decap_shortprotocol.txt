@@ -115,19 +115,19 @@ ColormapPreview,0
 # ChR stuff
 
 doChR,1
-ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM4,daikon:COM4
+ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM5,daikon:COM4
 ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
 ## settings for the LED controller
 ChR_IrInt,arrowroot:58,beet:58,carrot:54,daikon:53
 ## protocol file
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_minegishir_short_20190317.csv
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_minegishir_short_20190317.xlsx
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt
 
-ExperimentStartDelay,90
+ExperimentStartDelay,0
 
 # how to create the experiment name
 ExperimentNameComponents,sprintf('%s_%s_%s_Rig%s_%s',handles.ExperimentType,handles.ConditionName,handles.MetaData_EffectorAbbr,handles.Assay_Rig,timestampstr);
