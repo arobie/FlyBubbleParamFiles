@@ -67,13 +67,13 @@ TempProbeTypes,T,T
 # if 1, temperature probe will reject 60 Hz, otherwise will reject 50 Hz
 TempProbeReject60Hz,0
 # whether to read temperature or not
-DoRecordTemp,1
+DoRecordTemp,0
 # number of temperature and humidity samples to read from the Precon probe
 # set to 0 if no Precon sensor
 NPreconSamples,5
 # which serial port to connect to -- I have no idea how to figure this out 
 # automatically
-PreconSensorSerialPort,arrowroot:COM6,beet:COM4,carrot:COM5,daikon:COM4
+PreconSensorSerialPort,arrowroot:COM6,beet:COM4,carrot:COM5,daikon:COM5
 
 # y-axis limits for scan lines
 ScanLineYLim,60,250
