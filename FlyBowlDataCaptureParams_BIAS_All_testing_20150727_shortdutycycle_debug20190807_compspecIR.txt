@@ -67,7 +67,7 @@ TempProbeTypes,T,T
 # if 1, temperature probe will reject 60 Hz, otherwise will reject 50 Hz
 TempProbeReject60Hz,0
 # whether to read temperature or not
-DoRecordTemp,0
+DoRecordTemp,1
 # number of temperature and humidity samples to read from the Precon probe
 # set to 0 if no Precon sensor
 NPreconSamples,5
@@ -165,7 +165,7 @@ ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
 ## settings for the LED controller
-ChR_IrInt,arrowroot:62,beet:58,carrot:58,daikon:56
+ChR_IrInt,arrowroot:69,beet:64,carrot:58,daikon:56
 ## protocol file
 ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_shortdutycycle_20171106_shortChrtesting.xlsx
 ChR_isDaqCard,0
