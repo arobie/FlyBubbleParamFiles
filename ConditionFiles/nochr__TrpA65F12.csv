@@ -1,7 +1,7 @@
 # LDAP name of person who created the cross. Enter ""unknown"" if unknown or N/A.,
 CrossHandler,robiea
 # Number of days between creating the cross and the experiment. Enter -1 if unknown.,
-DaysSinceCross,20
+DaysSinceCross,23
 # Effector name.,
 Effector,TrpA
 # Name of experimental protocol. Enter """"unknown"""" if unknown.,
@@ -9,7 +9,7 @@ ExperimentProtocol,EP_Bubble_v002p2.xlsx
 # Days between the cross and the flip. Enter -1 if unknown.,
 FlipDays,-1
 # Which flip flies are from. Enter -1 if unknown.,
-FlipUsed,-1
+FlipUsed,0
 # Gender of flies. x=unknown m=male f=female b=both.,
 Gender,b
 # Name of handling protocol. Enter ""unknown"" if unknown.,

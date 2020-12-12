@@ -11,12 +11,12 @@ FlipDays,-1
 # Which flip flies are from. Enter -1 if unknown.,
 FlipUsed,1
 # Gender of flies. x=unknown m=male f=female b=both.,
-Gender,b
+Gender,f
 # Name of handling protocol. Enter ""unknown"" if unknown.,
 HandlingProtocol,HP_Bubble_v002p2.xlsx
 # Fly line name. This should be a real line name that is registered with SAGE.,
-LineName,GMR_20A02_AE_01
-#GMR_71G01_AE_01,GMR_91B01_AE_01,GMR_65F12_AE_01,,FCF_pBDPGAL4U_1500437
+LineName,FCF_pBDPGAL4U_1500437
+#GMR_71G01_AE_01,,GMR_65F12_AE_01,GMR_20A02_AE_01,GMR_91B01_AE_01
 # Name of rearing protocol. Enter ""unknown"" if unknown.,
 RearingProtocol,RP_Bubble_v002p2.xlsx
 # Which robot stock copy the flies are from. Enter unknown.,
