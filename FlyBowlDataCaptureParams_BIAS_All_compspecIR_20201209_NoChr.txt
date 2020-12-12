@@ -85,7 +85,7 @@ CoupleCameraTempProbeStart,1
 # where the condition files will be stored
 ConditionDirectory,C:\Users\bransonk\Documents\FlyBubbleParamFiles\ConditionFiles
 # Number of seconds to record
-RecordTime,600
+RecordTime,300
 
 ## new BIAS specific parameters
 
