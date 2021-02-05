@@ -167,7 +167,8 @@ ChR_THUpdateP,30
 ## settings for the LED controller
 ChR_IrInt,arrowroot:62,beet:60,carrot:54,daikon:53
 ## protocol file
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocolRGB_social_30sec_20190808_low25_KBdebug20210126.xlsx
+#ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocolRGB_social_30sec_20190808_low25_KBdebug20210126.xlsx
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocolRGB_social_30sec_20190808_low25_KBdebug20210205.xlsx
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt
