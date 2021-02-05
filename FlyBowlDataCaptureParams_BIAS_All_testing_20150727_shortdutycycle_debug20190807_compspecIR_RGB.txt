@@ -167,7 +167,7 @@ ChR_THUpdateP,30
 ## settings for the LED controller
 ChR_IrInt,arrowroot:69,beet:64,carrot:58,daikon:56
 ## protocol file
-/groups/branson/home/robiea/Code_versioned/FlyBubbleParamFiles/protocolRGB_shortdutycycle_20171106_shortChrtesting.xlsx
+/groups/branson/home/robiea/Code_versioned/FlyBubbleParamFiles/protocolRGBms_shortdutycycle_20171106_shortChrtesting.xlsx
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt
