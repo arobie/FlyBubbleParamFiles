@@ -160,12 +160,12 @@ ColormapPreview,0
 # ChR stuff
 
 doChR,1
-ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM4,daikon:COM4
+ChR_serial_port_for_LED_Controller,arrowroot:COM8,beet:COM6,carrot:COM4,daikon:COM4
 ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
 ## settings for the LED controller
-ChR_IrInt,arrowroot:62,beet:60,carrot:54,daikon:53
+ChR_IrInt,arrowroot:40,beet:40,carrot:40,daikon:40
 ## protocol file
 
 ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocolRGBms_social_30sec_20190808_low25.xlsx
