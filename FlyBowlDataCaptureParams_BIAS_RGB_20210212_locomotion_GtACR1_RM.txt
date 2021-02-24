@@ -1,6 +1,7 @@
 #testing git
 # Directory to store video to
-OutputDirectory,E:\Data,E:\Data
+OutputDirectory,E:\flydisco_data\branson,E:\flydisco_data\branson
+#OutputDirectory,E:\Data,E:\Data
 #OutputDirectory,E:\debug_data,E:\debug_data
 #OutputDirectory,E:\special_data,E:\special_data
 # Directory to temporarily store video to
@@ -73,7 +74,7 @@ DoRecordTemp,0
 NPreconSamples,5
 # which serial port to connect to -- I have no idea how to figure this out 
 # automatically
-PreconSensorSerialPort,arrowroot:COM6,beet:COM4,carrot:COM5,daikon:COM4
+PreconSensorSerialPort,arrowroot:COM6,beet:COM4,carrot:COM5,daikon:COM5
 
 # y-axis limits for scan lines
 ScanLineYLim,60,250
@@ -159,15 +160,15 @@ ColormapPreview,0
 
 # ChR stuff
 
-doChR,0
-ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM4,daikon:COM4
+doChR,1
+ChR_serial_port_for_LED_Controller,arrowroot:COM8,beet:COM6,carrot:COM9,daikon:COM8
 ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
 ## settings for the LED controller
-ChR_IrInt,arrowroot:62,beet:60,carrot:54,daikon:53
+ChR_IrInt,arrowroot:40,beet:40,carrot:40,daikon:40
 ## protocol file
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_social_30secon_20190808.xlsx
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocolRGBms_locomotion_GtACR_20210212_nochr.xlsx
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt
