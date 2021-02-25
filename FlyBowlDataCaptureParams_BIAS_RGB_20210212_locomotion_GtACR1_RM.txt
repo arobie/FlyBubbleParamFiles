@@ -1,6 +1,6 @@
 #testing git
 # Directory to store video to
-OutputDirectory,E:\Data,E:\Data
+OutputDirectory,E:\flydisco_data\branson,E:\flydisco_data\branson
 #OutputDirectory,E:\debug_data,E:\debug_data
 #OutputDirectory,E:\special_data,E:\special_data
 # Directory to temporarily store video to
@@ -48,7 +48,7 @@ MetaData_AssayName,FlyBubble
 
 # Range of Cross Dates to show -- minimum and maximum number of days 
 # before today
-PreAssayHandling_CrossDate_Range,14,22
+PreAssayHandling_CrossDate_Range,10,22
 # Range of Sorting Dates to show -- minimum and maximum number of days 
 # before today
 PreAssayHandling_SortingDate_Range,1,8
@@ -175,7 +175,7 @@ ColormapPreview,0
 # ChR stuff
 
 doChR,1
-ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM4,daikon:COM4
+ChR_serial_port_for_LED_Controller,arrowroot:COM8,beet:COM6,carrot:COM9,daikon:COM8
 ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
