@@ -45,7 +45,7 @@ Assay_Lids,01,02,03,04
 # List of possible Bowl values
 Assay_Bowls,A
 # MetaData: Assay name
-MetaData_AssayName,FlyBubble
+MetaData_AssayName,FlyBubbleRGB
 
 # Range of Cross Dates to show -- minimum and maximum number of days 
 # before today
