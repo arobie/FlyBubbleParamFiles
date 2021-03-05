@@ -180,7 +180,7 @@ ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
 ## settings for the LED controller
-ChR_IrInt,arrowroot:42,beet:40,carrot:40,daikon:40
+ChR_IrInt,arrowroot:42,beet:38,carrot:40,daikon:53
 ## protocol file
 
 
