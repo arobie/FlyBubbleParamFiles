@@ -7,7 +7,7 @@
 
 % MovieFile = '/groups/branson/home/robiea/Downloads/movie_cam_0_date_2020_08_07_time_14_02_16_v001.ufmf';
 reflineval = 215;
-MovieFile = 'C:\Users\bransonk\Videos\bias_video_v008.ufmf'
+MovieFile = 'C:\Users\bransonk\Videos\bias_video_v007.ufmf'
 [moviepath,moviename] = fileparts(MovieFile);
 savefilename = fullfile(moviepath,[moviename,'_background']);
 [readframe,nframes,fid,headerinfo] = get_readframe_fcn(MovieFile);
@@ -57,53 +57,53 @@ end
 
 
 %% Compute background model
-
-% take the median of all background frames
-nsampleframes = 10;
-if headerinfo.nmeans > 1,
-  if headerinfo.nmeans-1 > nsampleframes,
-    sampleframes = unique(round(linspace(2,headerinfo.nmeans,nsampleframes)));
-  else
-    sampleframes = 2:headerinfo.nmeans;
-  end
-  [meanims,headerinfo] = ufmf_read_mean(headerinfo,'meani',sampleframes);
-  meanims = double(meanims);
-  bkgdim = mean(meanims,4);
-else
-  sampleframes = unique(round(linspace(1,headerinfo.nframes,nsampleframes)));
-  meanims = repmat(double(readframe(1)),[1,1,1,nsampleframes]);
-  for i = 2:nsampleframes,
-    meanims(:,:,:,i) = double(readframe(sampleframes(i)));
-  end
-  bkgdim = median(meanims,4);
-end
-im = double(readframe(1));
-% WARNING: THIS WON'T WORK WITH COLOR IMAGES
-if ndims(bkgdim) == ndims(im) && ~all(size(bkgdim) == size(im)),
-  bkgdim = bkgdim';
-end
+% 
+% % take the median of all background frames
+% nsampleframes = 10;
+% if headerinfo.nmeans > 1,
+%   if headerinfo.nmeans-1 > nsampleframes,
+%     sampleframes = unique(round(linspace(2,headerinfo.nmeans,nsampleframes)));
+%   else
+%     sampleframes = 2:headerinfo.nmeans;
+%   end
+%   [meanims,headerinfo] = ufmf_read_mean(headerinfo,'meani',sampleframes);
+%   meanims = double(meanims);
+%   bkgdim = mean(meanims,4);
+% else
+%   sampleframes = unique(round(linspace(1,headerinfo.nframes,nsampleframes)));
+%   meanims = repmat(double(readframe(1)),[1,1,1,nsampleframes]);
+%   for i = 2:nsampleframes,
+%     meanims(:,:,:,i) = double(readframe(sampleframes(i)));
+%   end
+%   bkgdim = median(meanims,4);
+% end
+% im = double(readframe(1));
+% % WARNING: THIS WON'T WORK WITH COLOR IMAGES
+% if ndims(bkgdim) == ndims(im) && ~all(size(bkgdim) == size(im)),
+%   bkgdim = bkgdim';
+% end
 
 %% background intensity histogram
-edges = linspace(0,255,NBkgdBins+1);
-ctrs = (edges(1:end-1)+edges(2:end))/2;
-counts = hist(bkgdim(:),ctrs);
-frac = counts / numel(bkgdim);
-% standard deviation
-if length(IntensityHistSig) == NBkgdBins && length(IntensityHistMu) == NBkgdBins,
-  y = IntensityHistMu;
-  dy = IntensityHistSig;
-  patch([ctrs,fliplr(ctrs)],[y+dy,fliplr(y-dy)],SigColor,'LineStyle','none','parent',HistAx);
-  hold(HistAx,'on');
-end
-% mean
-if length(IntensityHistMu) == NBkgdBins,
-  plot(HistAx,ctrs,IntensityHistMu,'-','Color',MuColor);
-  hold(HistAx,'on');
-end
-plot(HistAx,ctrs,frac,'.-','Color',DataColor);
-axis(HistAx,[edges(1),edges(end),0,1]);
-xlabel(HistAx,'Pixel intensity histogram');
-ylabel(HistAx,'Fraction of pixels');
+% edges = linspace(0,255,NBkgdBins+1);
+% ctrs = (edges(1:end-1)+edges(2:end))/2;
+% counts = hist(bkgdim(:),ctrs);
+% frac = counts / numel(bkgdim);
+% % standard deviation
+% if length(IntensityHistSig) == NBkgdBins && length(IntensityHistMu) == NBkgdBins,
+%   y = IntensityHistMu;
+%   dy = IntensityHistSig;
+%   patch([ctrs,fliplr(ctrs)],[y+dy,fliplr(y-dy)],SigColor,'LineStyle','none','parent',HistAx);
+%   hold(HistAx,'on');
+% end
+% % mean
+% if length(IntensityHistMu) == NBkgdBins,
+%   plot(HistAx,ctrs,IntensityHistMu,'-','Color',MuColor);
+%   hold(HistAx,'on');
+% end
+% plot(HistAx,ctrs,frac,'.-','Color',DataColor);
+% axis(HistAx,[edges(1),edges(end),0,1]);
+% xlabel(HistAx,'Pixel intensity histogram');
+% ylabel(HistAx,'Fraction of pixels');
 
 %% backgrounds
 
