@@ -2,17 +2,17 @@
 % change to YOUR movie
 % MovieFile = '/groups/branson/home/robiea/Projects_data/FlyBowl_Opto/TestData/NewOptoBowls/20191204T151156_rig1_flyBowl3__SS47478_20XUASCsChrimsonattp18_protocol_OL0077_testing_long_fortesting/movie.ufmf';
 
-addpath /groups/branson/home/robiea/Code_versioned/Jdetect_github/Jdetect/filehandling
-addpath /groups/branson/home/robiea/Code_versioned/Jdetect_github/Jdetect/misc
+% addpath /groups/branson/home/robiea/Code_versioned/Jdetect_github/Jdetect/filehandling
+% addpath /groups/branson/home/robiea/Code_versioned/Jdetect_github/Jdetect/misc
 
 % MovieFile = '/groups/branson/home/robiea/Downloads/movie_cam_0_date_2020_08_07_time_14_02_16_v001.ufmf';
 reflineval = 215;
-MovieFile = '/groups/branson/bransonlab/alice/temp_bubbledata/nochr_BARCODE_Unknown_RigA_20210224T161341_IRevenNewIndicators_ openovalflybubbleholder/movie.ufmf'
+MovieFile = 'C:\Users\bransonk\Videos\bias_video_v008.ufmf'
 [moviepath,moviename] = fileparts(MovieFile);
 savefilename = fullfile(moviepath,[moviename,'_background']);
 [readframe,nframes,fid,headerinfo] = get_readframe_fcn(MovieFile);
 % change to path for QuickStats data download 
-load /groups/branson/home/robiea/Code_versioned/FlyBowlDataCapture/QuickStats_Stats_20110914T022555.mat;
+% load /groups/branson/home/robiea/Code_versioned/FlyBowlDataCapture/QuickStats_Stats_20110914T022555.mat;
 
 parent = nan;
 fig = nan;
