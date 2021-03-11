@@ -203,7 +203,7 @@
             "timeAndDateFormat" : "'date'_yyyy_MM_dd_'time'_hh_mm_ss" 
         },
         "directory" : "C:/Users/bransonk/Videos",
-        "enabled" : true,
+        "enabled" : false,
         "fileName" : "bias_video",
         "format" : "ufmf",
         "settings" : {
