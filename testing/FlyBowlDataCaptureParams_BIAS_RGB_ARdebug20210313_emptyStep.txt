@@ -184,7 +184,7 @@ ChR_IrInt,arrowroot:15,beet:15,carrot:15,daikon:15
 ## protocol file
 
 
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocolRGBms_ARdebug20210313_emptyFirstStep.xlsx
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\testing\protocolRGBms_ARdebug20210313_emptyFirstStep.xlsx
 
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
