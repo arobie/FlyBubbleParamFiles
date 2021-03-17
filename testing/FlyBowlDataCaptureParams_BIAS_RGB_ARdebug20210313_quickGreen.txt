@@ -36,7 +36,7 @@ Assay_Room,2C.310.1
 # List of possible Rig values
 Assay_Rigs,A,B,C,D
 # List of possible Plate values
-Assay_Plates,1a,1b,2a,2b,3a,3b,4a,4b
+Assay_Plates,1a,1b,2a,2b,3a,3b,4a,4b,1LO,1RC,1SO
 # List of possible Visual Surround values
 Assay_VisualSurrounds,1,2,3,4
 # List of possible Lid values
