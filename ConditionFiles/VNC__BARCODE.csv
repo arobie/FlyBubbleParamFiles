@@ -5,7 +5,7 @@ DaysSinceCross,13
 # Effector name.,
 Effector,GtACR1
 # Name of experimental protocol. Enter ""unknown"" if unknown.
-ExperimentProtocol,EP_Bubble_v003p75.xlsx
+ExperimentProtocol,EP_Bubble_v003p7.xlsx
 # Days between the cross and the flip. Enter -1 if unknown.
 FlipDays,3
 # Which flip flies are from. Enter -1 if unknown.
