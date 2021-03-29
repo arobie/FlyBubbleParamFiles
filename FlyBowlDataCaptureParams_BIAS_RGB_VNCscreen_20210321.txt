@@ -60,7 +60,7 @@ PreAssayHandling_SortingHour_Interval,.25
 # before today
 PreAssayHandling_StarvationDate_Range,-1,1
 # Range of Starvation Times to show -- minimum and maximum in hour of the day, e.g. 8 = 8am, 18=6pm, 8.5=8:30am
-PreAssayHandling_StarvationHour_Range,8,19
+PreAssayHandling_StarvationHour_Range,5,19
 # Interval of Starvation Times to show in hours, e.g. 1 corresponds to showing every hour
 PreAssayHandling_StarvationHour_Interval,.25
 
