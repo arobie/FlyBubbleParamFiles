@@ -42,7 +42,7 @@ Assay_VisualSurrounds,1,2,3,4
 # List of possible Lid values
 Assay_Lids,01,02,03,04
 # List of possible Bowl values
-Assay_Bowls,A,B,D,C
+Assay_Bowls,A
 # MetaData: Assay name
 MetaData_AssayName,FlyBubbleRGB
 
