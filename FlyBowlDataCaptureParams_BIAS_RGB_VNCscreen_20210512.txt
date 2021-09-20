@@ -1,6 +1,6 @@
 #testing git
 # Directory to store video to
-OutputDirectory,E:\flydisco_data\dickson,E:\flydisco_data\dickson
+OutputDirectory,E:\flydisco_data\dickson,E:\flydisco_data\branson
 #OutputDirectory,E:\debug_data,E:\debug_data
 #OutputDirectory,E:\special_data,E:\special_data
 # Directory to temporarily store video to
