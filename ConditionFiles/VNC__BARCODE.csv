@@ -33,6 +33,6 @@ BarcodeCondition,Line
 # flip days
 FlipDays,3
 # lab name
-LabName,branson
+LabName,dickson
 # screen reason -- overrides condition
 ScreenReason,vnc_screen
