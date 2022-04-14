@@ -1,5 +1,5 @@
 # LDAP name of person who created the cross. Enter "unknown" if unknown or N/A.,
-CrossHandler,minegishir
+CrossHandler,vallanaduv
 # Number of days between creating the cross and the experiment. Enter -1 if unknown.,
 DaysSinceCross,13
 # Effector name.,
@@ -17,7 +17,7 @@ HandlingProtocol,HP_Bubble_v003p1.xlsx
 # Fly line name. This should be a real line name that is registered with SAGE.,,
 LineName,
 # Name of rearing protocol. Enter "unknown" if unknown.
-RearingProtocol,RP_Bubble_v003p1.xlsx
+RearingProtocol,RP_Bubble_v003p2.xlsx
 # Which robot stock copy the flies are from. Enter unknown.
 RobotID,unknown
 # LDAP name of person who sorted the flies. Enter "unknown" if unknown of N/A
