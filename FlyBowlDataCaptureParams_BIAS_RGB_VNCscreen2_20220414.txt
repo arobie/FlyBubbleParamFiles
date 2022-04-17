@@ -180,7 +180,7 @@ ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
 ## settings for the LED controller
-ChR_IrInt,arrowroot:15,beet:15,carrot:15,daikon:15
+ChR_IrInt,arrowroot:15,beet:16,carrot:15,daikon:15
 ## protocol file
 
 ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocolRGBms_locomotion_GtACR_20220414.xlsx
