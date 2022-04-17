@@ -28,7 +28,7 @@ UFMFStatFileName,ufmf_diagnostics.txt
 QuickStatsStatsFileName,QuickStats_Stats_20110914T022555.mat
 
 # List of possible Experimenter values
-Assay_Experimenters,minegishir,chenn,arrudar,managanc 
+Assay_Experimenters,arrudar,managanc 
 # List of possible Incubator ID values
 Rearing_IncubatorIDs,1
 # Assay room number
@@ -36,7 +36,7 @@ Assay_Room,2C.310.1
 # List of possible Rig values
 Assay_Rigs,A,B,C,D
 # List of possible Plate values
-Assay_Plates,1b,1c,2a,2b,3a,3b,4b,4d
+Assay_Plates,1b,1c,1d,2c,2d,3a,3b,4b,4d
 # List of possible Visual Surround values
 Assay_VisualSurrounds,1,2,3,4
 # List of possible Lid values
