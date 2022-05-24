@@ -28,7 +28,7 @@ UFMFStatFileName,ufmf_diagnostics.txt
 QuickStatsStatsFileName,QuickStats_Stats_20110914T022555.mat
 
 # List of possible Experimenter values
-Assay_Experimenters,arrudar,managanc 
+Assay_Experimenters,arrudar,boonek,managanc
 # List of possible Incubator ID values
 Rearing_IncubatorIDs,1
 # Assay room number
