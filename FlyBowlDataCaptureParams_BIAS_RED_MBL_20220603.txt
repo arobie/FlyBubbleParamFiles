@@ -34,7 +34,7 @@ Rearing_IncubatorIDs,1,2,3,4,5,6,7,8
 # Assay room number
 Assay_Room,2C.310.1
 # List of possible Rig values
-Assay_Rigs,A,B,C,D
+Assay_Rigs,A,B,C,D,E,F
 # List of possible Plate values
 Assay_Plates,01,02,03,04
 # List of possible Visual Surround values
@@ -175,4 +175,4 @@ StimulusTimingLogFileName,StimulusTimingLog.txt
 ExperimentStartDelay,5
 
 # how to create the experiment name
-ExperimentNameComponents,sprintf('%s_%s_%s_Rig%s_%s',handles.ExperimentType,handles.ConditionName,handles.MetaData_EffectorAbbr,handles.Assay_Rig,timestampstr);
+ExperimentNameComponents,sprintf('%s_%s_Rig%s_%s',handles.ExperimentType,handles.ConditionName,handles.Assay_Rig,timestampstr);
