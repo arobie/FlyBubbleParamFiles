@@ -3,7 +3,7 @@ CrossHandler,robiea
 # Number of days between creating the cross and the experiment. Enter -1 if unknown.,
 DaysSinceCross,20
 # Effector name.,
-Effector,CsChr
+Effector,UAS_Chrimson_Venus_X_0070
 # Name of experimental protocol. Enter """"unknown"""" if unknown.",
 ExperimentProtocol,EP_Bubble_v003p95.xlsx
 # Days between the cross and the flip. Enter -1 if unknown.",
