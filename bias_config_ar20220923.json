@@ -11,17 +11,17 @@
             }
         },
         "frameRate" : "Format7",
-        "guid" : "3d1b8820de739bd0dc308c8cce8fea74",
+        "guid" : "e8f22bb82f2319f0245f6599ba692741",
         "model" : "Flea3 FL3-U3-13Y3M",
         "properties" : {
             "autoExposure" : {
                 "absoluteControl" : false,
-                "absoluteValue" : 1.9168701171875,
+                "absoluteValue" : 1.85382080078125,
                 "autoActive" : false,
                 "on" : false,
                 "onePush" : false,
                 "present" : true,
-                "value" : 725 
+                "value" : 694 
             },
             "brightness" : {
                 "absoluteControl" : false,
@@ -43,12 +43,12 @@
             },
             "frameRate" : {
                 "absoluteControl" : true,
-                "absoluteValue" : 150.0,
+                "absoluteValue" : 30.0,
                 "autoActive" : false,
                 "on" : true,
                 "onePush" : false,
                 "present" : true,
-                "value" : 493 
+                "value" : 2076 
             },
             "gain" : {
                 "absoluteControl" : false,
@@ -124,12 +124,12 @@
             },
             "temperature" : {
                 "absoluteControl" : false,
-                "absoluteValue" : 3.1309750080108642578,
+                "absoluteValue" : 3.1272249221801757812,
                 "autoActive" : false,
                 "on" : false,
                 "onePush" : false,
                 "present" : true,
-                "value" : 3131 
+                "value" : 3127 
             },
             "tilt" : {
                 "absoluteControl" : false,
@@ -184,7 +184,7 @@
     },
     "configuration" : {
         "directory" : "C:/Users/bransonk/Documents/FlyBubbleParamFiles",
-        "fileName" : "bias_config_kb20150325" 
+        "fileName" : "bias_config_ar20220923" 
     },
     "display" : {
         "colorMap" : "None",
@@ -192,7 +192,7 @@
             "flipHorizontal" : false,
             "flipVertical" : false 
         },
-        "rotation" : 180,
+        "rotation" : 90,
         "updateFrequency" : 15.0 
     },
     "logging" : {

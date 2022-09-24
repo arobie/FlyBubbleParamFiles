@@ -167,12 +167,12 @@ ChR_THUpdateP,30
 ## settings for the LED controller
 ChR_IrInt,arrowroot:62,beet:60,carrot:54,daikon:53,fiddlehead:53,edamame:55
 ## protocol file
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_Red_quick_AR20220922.xlsx
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_Red_social_AR20220922.xlsx
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt
 
-ExperimentStartDelay,0
+ExperimentStartDelay,30
 
 # how to create the experiment name
 ExperimentNameComponents,sprintf('%s_%s_Rig%s_%s',handles.ExperimentType,handles.ConditionName,handles.Assay_Rig,timestampstr);

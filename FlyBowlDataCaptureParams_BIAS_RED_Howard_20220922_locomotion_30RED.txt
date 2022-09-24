@@ -53,9 +53,9 @@ PreAssayHandling_SortingHour_Range,8,19
 # Frame rate we expect
 Imaq_FrameRate,30
 # Maximum frame rate we will get
-Imaq_MaxFrameRate,155
+Imaq_MaxFrameRate,35
 # limits of y-axis for frame rate plot
-FrameRatePlotYLim,0,160
+FrameRatePlotYLim,0,40
 # Limits of y-axis for temperature plot
 TempPlotYLim,20,35
 # Time in between temperature readings
@@ -91,7 +91,7 @@ RecordTime,300
 
 # BIAS config file
 BIASBinary,C:\Users\bransonk\Documents\bias_test_gui_v0p49\bias_gui_v049.exe
-BIASConfigFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\bias_config_kb20150325.json
+BIASConfigFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\bias_config_ar20220923.json
 # Port to look for the camera
 BIASServerPortBegin,5000
 BIASServerPortStep,10
@@ -165,9 +165,9 @@ ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
 ## settings for the LED controller
-ChR_IrInt,arrowroot:62,beet:60,carrot:54,daikon:53,fiddlehead:55,edamame:55
+ChR_IrInt,arrowroot:62,beet:60,carrot:54,daikon:53,fiddlehead:53,edamame:55
 ## protocol file
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_Red_quick_AR20220922.xlsx
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_Red_social_AR20220922.xlsx
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt

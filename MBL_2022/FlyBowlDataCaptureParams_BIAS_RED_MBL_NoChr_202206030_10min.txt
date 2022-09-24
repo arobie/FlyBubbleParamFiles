@@ -6,7 +6,7 @@ OutputDirectory,E:\Data,E:\Data
 # Directory to temporarily store video to
 TmpOutputDirectory,E:\tmpdata,E:\tmpdata
 # Names of hard drives, corresponding to the ordered OutputDirectory list
-HardDriveName,(arrowroot:Internal_E;beet:Internal_E;carrot:Internal_E;daikon:Internal_E;fiddlehead:Internal_E;edamame:Internal_E),(arrowroot:Internal_E;beet:Internal_E;carrot:Internal_E;daikon:Internal_E;fiddlehead:Internal_D;edamame:Internal_D)
+HardDriveName,(arrowroot:Internal_E;beet:Internal_E;carrot:Internal_E;daikon:Internal_E;fiddlehead:Internal_E;edamame:Internal_E),(arrowroot:Internal_E;beet:Internal_E;carrot:Internal_E;daikon:Internal_E;fiddlehead:Internal_D;edamame:Internal_E)
 # Camera adaptor
 #Imaq_Adaptor,udcam
 Imaq_Adaptor,bias
@@ -51,11 +51,11 @@ MetaData_AssayName,FlyBubble
 PreAssayHandling_SortingHour_Range,8,19
 
 # Frame rate we expect
-Imaq_FrameRate,30
+Imaq_FrameRate,150
 # Maximum frame rate we will get
-Imaq_MaxFrameRate,35
+Imaq_MaxFrameRate,155
 # limits of y-axis for frame rate plot
-FrameRatePlotYLim,0,40
+FrameRatePlotYLim,0,160
 # Limits of y-axis for temperature plot
 TempPlotYLim,20,35
 # Time in between temperature readings
@@ -85,13 +85,13 @@ CoupleCameraTempProbeStart,1
 # where the condition files will be stored
 ConditionDirectory,C:\Users\bransonk\Documents\FlyBubbleParamFiles\ConditionFiles
 # Number of seconds to record
-RecordTime,20
+RecordTime,600
 
 ## new BIAS specific parameters
 
 # BIAS config file
 BIASBinary,C:\Users\bransonk\Documents\bias_test_gui_v0p49\bias_gui_v049.exe
-BIASConfigFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\bias_config_ar20220923.json
+BIASConfigFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\bias_config_kb20150325.json
 # Port to look for the camera
 BIASServerPortBegin,5000
 BIASServerPortStep,10
@@ -159,15 +159,15 @@ ColormapPreview,0
 
 # ChR stuff
 
-doChR,1
+doChR,0
 ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM4,daikon:COM4,fiddlehead:COM3,edamame:COM3
 ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
 ChR_THUpdateP,30
 ## settings for the LED controller
-ChR_IrInt,arrowroot:62,beet:60,carrot:54,daikon:53,fiddlehead:53,edamame:55
+ChR_IrInt,arrowroot:62,beet:60,carrot:54,daikon:55,fiddlehead:55
 ## protocol file
-ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_Red_quick_AR20220922.xlsx
+ChR_expProtocolFile,C:\Users\bransonk\Documents\FlyBubbleParamFiles\protocol_Red_social_AR20220614.xlsx
 ChR_isDaqCard,0
 ChR_LEDpattern,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 StimulusTimingLogFileName,StimulusTimingLog.txt
