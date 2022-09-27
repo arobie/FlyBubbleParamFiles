@@ -159,7 +159,7 @@ ColormapPreview,0
 
 # ChR stuff
 
-doChR,0
+doChR,1
 ChR_serial_port_for_LED_Controller,arrowroot:COM3,beet:COM3,carrot:COM4,daikon:COM4,fiddlehead:COM3,edamame:COM3
 ChR_rigName,flyBowlAlice
 ## set the polling rate for the temp/humidity sensor in seconds
