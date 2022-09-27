@@ -8,7 +8,7 @@ Effector,CsChr
 ExperimentProtocol,EP_Bubble_v003p95.xlsx
 # Days between the cross and the flip. Enter -1 if unknown.""",
 FlipDays,3
-"# Which flip flies are from. Enter -1 if unknown.""",
+# Which flip flies are from. Enter -1 if unknown.""",
 FlipUsed,0
 # Gender of flies. x=unknown m=male f=female b=both.""",
 Gender,f

@@ -15,7 +15,7 @@ Gender,m
 # Name of handling protocol. Enter """"unknown"""" if unknown.""",
 HandlingProtocol,HP_Bubble_v001p0.xlsx
 # Fly line name. This should be a real line name that is registered with SAGE.""",
-LineName,TK
+LineName,Ctrl
 # Name of rearing protocol. Enter """"unknown"""" if unknown.""",
 RearingProtocol,RP_Bubble_v006p1.xlsx
 # Which robot stock copy the flies are from. Enter unknown.""",
