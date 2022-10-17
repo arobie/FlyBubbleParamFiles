@@ -1,6 +1,6 @@
 #testing git
 # Directory to store video to
-OutputDirectory,E:\Data,E:\Data\Grp2
+OutputDirectory,E:\Data\Grp2,E:\Data\Grp2
 #OutputDirectory,E:\debug_data,E:\debug_data
 #OutputDirectory,E:\special_data,E:\special_data
 # Directory to temporarily store video to
